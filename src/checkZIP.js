@@ -19,7 +19,7 @@ export default function checkZIP(){
           };
 
           const country = document.querySelector("#userCountry").value;
-          const ZIPField = document.querySelector("#userZIP");
+          const ZIPField = document.querySelector("#userZip");
           const constraint = new RegExp(constraints[country][0],"");
         
           if (constraint.test(ZIPField.value)){
